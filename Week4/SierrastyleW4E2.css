@@ -1,0 +1,48 @@
+div.Container1{
+  height: 200px;
+  border: 2px dotted purple;
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+
+p{
+  position: relative;
+  top: 160px;
+}
+
+div.Container2{
+  position: relative;
+  bottom: 160px;
+}
+
+.Text{
+  color: #006600;
+  font-size: 6px;
+  font-weight:bolder;
+  text-align: center;
+}
+
+.MoreText{
+  color:orange;
+  font-size: 25px;
+  text-align:left;
+}
+
+#Word1{
+  color:red;
+  vertical-align: super;
+}
+
+.EvenMoreText{
+  color:purple;
+  font-size: 6px;
+  text-align:right;
+}
+
+#Word2{
+  color:khaki;
+  font-style: italic;
+  text-transform: uppercase;
+}

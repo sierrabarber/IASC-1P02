@@ -1,0 +1,32 @@
+body{
+  background-color: black
+}
+
+div.Container{
+  background-color: white;
+  padding: 12px 1px 8px 1px;
+  position:relative;
+  top: 225px;
+}
+
+div.Box1{
+  background-color: green;
+  color: red;
+  font-size: 16px;
+  padding: 0px 10px 0px 10px;
+}
+
+div.Box2{
+  border: 5px dotted black;
+  padding: 10px;
+}
+
+.Text1{
+  color: #006600;
+}
+
+.Text2{
+  color: purple;
+  position: relative;
+  right: 10px;
+}
