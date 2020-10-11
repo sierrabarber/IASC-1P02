@@ -1,0 +1,48 @@
+body{
+  background-color: white;
+  margin: 0 auto;
+}
+
+.Header{
+  height:63px;
+  width:100%;
+  text-align: center;
+  color: white;
+  background:red;
+  position: relative;
+  bottom:5px;
+}
+
+.HeaderText{
+  font-size:20px;
+  position: relative;
+  top:15px;
+}
+
+.LeftBox{
+  height: 460px;
+  background-color: green;
+  color: white;
+  position: relative;
+  bottom:20px
+}
+
+.LeftBoxText{
+  font-size:10px;
+  position: relative;
+  top:10px;
+}
+
+.Footer{
+  height: 65px;
+  background-color: blue;
+  color: white;
+  position: relative;
+  bottom:40px
+}
+
+.FooterText{
+  font-size:10px;
+  position: relative;
+  top:10px;
+}

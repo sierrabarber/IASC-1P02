@@ -1,0 +1,60 @@
+body{
+  background-color: green;
+  margin: 0px;
+}
+
+#Wrapper{
+  width:800px;
+  margin:0 auto;
+}
+
+#Header{
+  height: 70px;
+  margin-top: 0px;
+  text-align: center;
+  background:red;
+  font-size:11px;
+  position: relative;
+  bottom: 18px
+}
+
+p{
+  font-size:18px;
+  font-weight: bold;
+}
+
+#LeftBox,#RightBox{
+  height: 75px;
+  float: left;
+  position: relative;
+  bottom: 20px
+}
+
+#LeftBox{
+  background-color: pink;
+  width: 250px;
+}
+
+
+#RightBox{
+  background-color: orange;
+  width: 550px;
+}
+
+#LowerBox{
+  background-color: blue;
+  height: 420px;
+  width: 800px;
+  float: left;
+}
+
+#Footer{
+  background-color: yellow;
+  height: 70px;
+  clear:both;
+}
+
+#LowerBox,#Footer,#LowerBoxContent{
+  position: relative;
+  bottom: 20px
+}
