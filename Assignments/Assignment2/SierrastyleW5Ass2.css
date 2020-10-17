@@ -1,0 +1,76 @@
+body{
+  background-color: black;
+}
+
+div{
+  border: 3px solid black;
+  margin: 2px;
+  padding: 10px;
+}
+
+#Wrapper{
+  width:800px;
+  margin:0 auto;
+  background-color: white;
+}
+
+#Header{
+  height:50px;
+  text-align: center;
+}
+
+.MainHeader{
+  position: relative;
+  bottom: 20px;
+}
+
+h1,h2{
+  color: red;
+}
+
+#LeftBox{
+  float: left;
+  height: 1630px;
+  background-color: pink;
+  width: 100px;
+}
+
+.LeftText{
+  position: fixed;
+}
+
+#RightBox{
+  float: left;
+  height: 1630px;
+  background-color: yellow;
+  width: 640px;
+}
+
+.HeaderFact{
+  position: absolute;
+  top:120px
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.HeaderFact,.HeaderFiction{
+  font-size: 24px;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+.TextFact p{
+  color: blue;
+}
+
+.TextFiction p{
+  color: green;
+}
+
+#Footer{
+  clear:both;
+  height: 50px;
+  background-color: violet;
+}
