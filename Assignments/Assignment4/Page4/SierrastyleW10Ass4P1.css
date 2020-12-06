@@ -1,0 +1,89 @@
+/*This is my css for Page 1*/
+#wrapper, #container {
+    height: 1720px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: teal;
+}
+
+/*This is my css for the Main Header*/
+#mainHeader{
+    height: 100px;
+    width: 900px;
+    font-family: arial;
+    color: black;
+    text-align: center;
+    background-color: lightgrey;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#mainHeaderText{
+    position:relative;
+    top: 10px;
+}
+
+/*This is my css for the Main Content Boxes*/
+#leftBox, #middleBox, #rightBox{
+    height:1460px;
+    width:273px;
+    color:black;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: left;
+    background-color: lightgrey;
+    float:left;
+    position:relative;
+    top: 120px;
+}
+
+#leftBox{
+    left:20px;
+}
+
+#middleBox{
+    left:40px;
+}
+
+#rightBox{
+    left:60px;
+}
+
+.allBoxHeader{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.allBoxText{
+    height: 390px;
+    width: 220px;
+    padding-left: 20px;
+}
+
+.allBoxPic{
+    height:250px;
+    width:250px;
+    position:relative;
+    right:10px;
+    top:10px;
+}
+
+/*This is my css for the Footer*/
+#footer{
+    height: 100px;
+    width: 880px;
+    font-family: arial;
+    font-size:16px;
+    color: white;
+    padding:10px;
+    background-color:black;
+    clear:both;
+    position:relative;
+    top:140px;
+}
+
+a{
+    color:teal;
+}

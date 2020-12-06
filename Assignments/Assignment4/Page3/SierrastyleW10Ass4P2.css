@@ -1,0 +1,149 @@
+/*This is my css for Page 2*/
+#wrapper, #container {
+    height: 1280px;
+    width: 1200px;
+    background-color: lightgrey;
+    margin: 0 auto;
+}
+
+/*This is my css for the header*/
+#header {
+    height: 100px;
+    width: 1200px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    background-image: url("TealBackground.jpg");
+    margin: 0 auto;
+    position: absolute;
+}
+
+#headerName {
+    position: relative;
+    top: 10px;
+}
+
+/*This is my css for the Main Content*/
+#LeftBox, #TopRightBox, #Middle1RightBox, #Middle2RightBox, #BottomRightBox {
+    color: black;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: left;
+    background-image: url("TealBackground.jpg");
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 130px;
+}
+
+#LeftBox {
+    height: 970px;
+    width: 300px;
+    left: 30px;
+    top: 130px;
+}
+
+#TopRightBox {
+    height: 220px;
+    width: 800px;
+    left: 60px;
+    top: 130px;
+}
+
+#Middle1RightBox {
+    height: 220px;
+    width: 800px;
+    left: 60px;
+    top: 160px;
+}
+
+#Middle2RightBox {
+    height: 220px;
+    width: 800px;
+    left: 60px;
+    top: 190px;
+}
+
+#BottomRightBox {
+    height: 220px;
+    width: 800px;
+    left: 60px;
+    top: 220px;
+}
+
+/*This is my css for the videos*/
+.video {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+}
+
+/*This is my css for the Box Titles, Hover Boxes, Buttons and Pictures*/
+.mainContentHeaders {
+    color: white;
+    font-family: arial;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: left;
+    position: relative;
+    bottom: 50px;
+}
+
+.hover {
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+}
+
+#SilkiesButton, #HammersButton, #CoppersButton, #GreyReefsButton {
+    border: 2px;
+    position: absolute;
+    left: 340px;
+    bottom: 60px;
+}
+
+#output1 {
+    font-size: 26px;
+    position: relative;
+    left: 465px;
+    bottom: 100px;
+}
+
+#output2, #output3, #output4 {
+    font-size: 26px;
+    position: relative;
+    left: 482px;
+    bottom: 100px;
+}
+
+#SilkiesUniformBox {
+    position: relative;
+    left: 50px;
+    bottom: 160px;
+}
+
+#HammersUniformBox, #CoppersUniformBox, #GreyReefsUniformBox {
+    position: relative;
+    left: 20px;
+    bottom: 160px;
+}
+
+/*This is my css for the Footer*/
+#footer {
+    height: 120px;
+    width: 1180px;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    clear: both;
+    position: relative;
+    top: 170px;
+}
+
+a {
+    color: teal;
+}

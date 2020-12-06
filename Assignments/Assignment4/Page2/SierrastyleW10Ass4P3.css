@@ -1,0 +1,163 @@
+/*This is my css for Page 3*/
+#wrapper, #container {
+    height: 2300px;
+    width: 1000px;
+    background-color: lightgrey;
+    margin: 0 auto;
+}
+
+/*This is my css for the Header*/
+#header {
+    height: 100px;
+    width: 1000px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    background-image: url("TealBackground.jpg");
+    margin: 0 auto;
+    position: absolute;
+}
+
+/*This is my css for the Main Content*/
+#topVideoBox {
+    height: 1000px;
+    width: 1000px;
+}
+
+#middlePicBox {
+    height: 1000px;
+    width: 1000px;
+    background-image: url("CoppersWorldsPic.jpg");
+    position: relative;
+    bottom: 340px;
+}
+
+#leftSlideshowBox {
+    height: 500px;
+    width: 680px;
+    background-image: url("TealBackground.jpg");
+    position: relative;
+    bottom: 340px;
+}
+
+#rightTextBox {
+    height: 950px;
+    width: 300px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    background-image: url("TealBackground.jpg");
+    font-family: arial;
+    padding: 5px;
+    position: absolute;
+    top: 1198px;
+    left: 893px;
+}
+
+#coppersPyramidWorlds {
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    bottom: 120px;
+  }
+
+/*This is my css for the Slideshow*/
+.mySlides {
+    text-align: center;
+    height: 450px;
+}
+
+.mySlides img {
+    width: 100%;
+    max-height:100%;
+    object-fit: contain;
+}
+
+/*This is my css for the Previous & Next arrows*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: teal;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+/*This is my css for the Caption text*/
+.text {
+    color: white;
+    font-size: 40px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 440px;
+    width: 100%;
+    text-align: center;
+}
+
+/*This is my css for the Slide Number (i.e. 1 / 12)*/
+.numberText {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+}
+
+/*This is my css for the Slide Radio Buttons*/
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: black;
+}
+
+/*This is my css for the Picture Fading Animation*/
+.fade {
+    animation-name: fade;
+    animation-duration: 1.8s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/*This is my css for the Footer*/
+#footer {
+    height: 120px;
+    width: 980px;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    position: relative;
+    bottom: 340px;
+}
+
+a{
+    color: white;
+}

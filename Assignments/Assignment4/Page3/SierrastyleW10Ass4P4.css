@@ -1,0 +1,128 @@
+/*This is my css for Page 4*/
+#wrapper, #container {
+    height: 1300px;
+    width: 1000px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+/*This is my css for the Header*/
+#header {
+    height: 100px;
+    width: 1000px;
+    font-family: arial;
+    background-image: url("BrockBadgers.jpg");
+    margin: 0 auto;
+    position: absolute;
+}
+
+#headerBox {
+    height: 40px;
+    width: 540px;
+    font-family: arial;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 230px;
+    top: 5px;
+}
+
+/*This is my css for the Main Content*/
+#topPicBox {
+    height: 530px;
+    width: 1000px;
+    background-image: url("BrockVirtualTryouts.jpg");
+    position: relative;
+    top: 100px;
+}
+
+#middleBox {
+    height: 150px;
+    width: 980px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 40px;
+}
+
+#bottomBox {
+    height: 500px;
+    width: 680px;
+    background-image: url("BrockBadgers.jpg");
+    position: relative;
+    bottom: 40px;
+    left: 160px;
+}
+
+/*This is my css for the Slideshow*/
+.mySlides {
+    text-align: center;
+    height: 450px;
+}
+
+.mySlides img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/*This is my css for the Caption text*/
+.text {
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 440px;
+    width: 100%;
+    text-align: center;
+}
+
+/*This is my css for the Slide Number (i.e. 1 / 4)*/
+.numberText {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/*This is my css for the Picture Fading Animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/*This is my css for the Footer*/
+#footer {
+    height: 120px;
+    width: 980px;
+    font-family: arial;
+    font-size:16px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    position: relative;
+    bottom: 40px;
+}
+
+a {
+    color: white;
+}
+
+/*This slideshow css for fade animation was used from "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto".*/
